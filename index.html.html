@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owolabi Seun Damilare | Ghostwriter</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            color: white;
+        }
+
+        /* ✅ UPDATED IMAGE STYLE */
+        .hero img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            background: white;
+            color: #2575fc;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px;
+        }
+
+        .skills, .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2575fc;
+        }
+
+        footer {
+            background: #182848;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 12px;
+            background: #2575fc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Owolabi Seun</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <!-- ✅ YOUR IMAGE INSERTED -->
+    <img src="seun.jpg" alt="Owolabi Seun">
+
+    <h2>Professional Ghostwriter</h2>
+    <p>I help individuals and brands bring their ideas to life through powerful writing.</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello, I’m <strong>Owolabi Seun Damilare</strong>, a passionate and results-driven ghostwriter and creative writer dedicated to transforming ideas into compelling, high-quality content. I specialize in proofreading, editing, and storytelling that connects with audiences.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="card">
+            <h3>Ghostwriting</h3>
+            <p>Writing books, articles, and content on behalf of clients.</p>
+        </div>
+        <div class="card">
+            <h3>Proofreading</h3>
+            <p>Ensuring error-free and polished content.</p>
+        </div>
+        <div class="card">
+            <h3>Editing</h3>
+            <p>Improving clarity, tone, and structure of writing.</p>
+        </div>
+        <div class="card">
+            <h3>Creative Writing</h3>
+            <p>Crafting engaging and imaginative stories.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Ghostwritten eBook for a business coach.</p>
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>SEO blog articles for a tech company.</p>
+        </div>
+        <div class="card">
+            <h3>Project 3</h3>
+            <p>Creative storytelling project for a brand.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Owolabi Seun Damilare | Ghostwriter</p>
+</footer>
+
+</body>
+</html>
